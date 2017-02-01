@@ -1,0 +1,8 @@
+assembly notes
+
+about binary numbers
+ones and 2s complimennt
+overflow representation
+representing non integers
+IEEE notation
+ascii table
