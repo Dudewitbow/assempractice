@@ -1,4 +1,4 @@
-assembly notes
+assembly notes //internalising git commands via command line
 
 about binary numbers
 ones and 2s complimennt
@@ -10,3 +10,7 @@ unicode accents
 
 control unit-accesses program instructions, decodes them
 and controls io of alu, registers and output devices
+von neumann architecture = data and instruction in same memory
+pipelininig box chart
+superscalar has many pipelines for simultaneous insttructions
+
