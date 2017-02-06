@@ -6,3 +6,7 @@ overflow representation
 representing non integers
 IEEE notation
 ascii table
+unicode accents
+
+control unit-accesses program instructions, decodes them
+and controls io of alu, registers and output devices
