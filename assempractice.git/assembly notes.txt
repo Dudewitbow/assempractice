@@ -14,3 +14,6 @@ von neumann architecture = data and instruction in same memory
 pipelininig box chart
 superscalar has many pipelines for simultaneous insttructions
 
+memorymodels
+linear 32bit adress space
+4gb memory adress
