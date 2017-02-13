@@ -17,3 +17,10 @@ superscalar has many pipelines for simultaneous insttructions
 memorymodels
 linear 32bit adress space
 4gb memory adress
+1,2,4 byte intergers
+data or adress,decided by progammer
+floating point 
+no aggregate type ike arrays or structures
+artithmetic or logic, data transfer control program flow
+
+label: mnemonic [operands] ;comments
