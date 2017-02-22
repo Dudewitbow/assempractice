@@ -24,3 +24,25 @@ no aggregate type ike arrays or structures
 artithmetic or logic, data transfer control program flow
 
 label: mnemonic [operands] ;comments
+
+overflow = sum of positives = negative or sum of negatives = positive
+
+
+or destination, source  (if any place as an 1, then result is 1)
+xor destination, source (flips bits with 11111, no changes with 0000)
+NOT inverts all bits (ones compliment)
+negate = two's compliment
+
+set bits 4 and 5 to convert numerical to ascii
+
+check even, and with 1, check last bit if zero (jz)
+test is like and, but result is not stored
+e.g test al, 00000011b  //0 test
+jz valuenotfound
+
+cmp compares 2 values, no values are stored
+e,g mov al, 5
+cmp al,5 //zero flag has been set
+jmp below/above = unsigned
+jmp less greater = signed
+je = jump if equal
