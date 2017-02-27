@@ -46,3 +46,24 @@ cmp al,5 //zero flag has been set
 jmp below/above = unsigned
 jmp less greater = signed
 je = jump if equal
+
+after start, use noop //for gdb usage
+in assemble time, -g and -F is required
+(gdb) break *_start+1
+(gdb) set disessembly-flavor intel
+(gdb) disassemble _start
+(gdb) r 
+(gdb) info registers //displays registers
+(gdb) si // = next step
+(gdb) x/16cb &EatMsg // x = examine memory, 16 = byte count
+(gdb) quit
+stdin = keyboard
+stdout = monitor
+convert lower to upper by subtracting 20h
+exit program via sys_exit
+int 80h = calls sys_read
+cmp byte [Buff], 61h //lower case about a
+jb Write
+cmp byte [Buff], 7Ah ///test vs z
+/usr/bin/time -p ./hello2
+/usr/bin/time -v ./hello2 //verbose
