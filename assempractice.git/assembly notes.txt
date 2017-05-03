@@ -67,3 +67,22 @@ jb Write
 cmp byte [Buff], 7Ah ///test vs z
 /usr/bin/time -p ./hello2
 /usr/bin/time -v ./hello2 //verbose
+
+gcc -m32 myprog.o -o myprog
+-m32 is for 64 bit systems for 32 bit compatability
+push intval ;push address of int
+push iformat ;push string format
+call scanf
+add esp, 8 ; stack clenaup for the 2 parameters x 4 bytes = 8
+file * fopen (chat *name, char *mode) //mode r w a or r+ w+ a+ read write append
+-1 for error
+int getc //get char for file
+putc
+stdin, stdout, stderr are like any files
+stdin, -keyboard; stdout, stderr -screen
+#define getchar() getc(stdin)
+
+formatted ioint fscanf(FILE *fp,)// fill in
+int fflash(FILE *stream);
+force c  library to write any buffered data using unix IO
+
